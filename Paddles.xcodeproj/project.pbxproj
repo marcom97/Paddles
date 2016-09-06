@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A951C0991D7E662F0062264F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A951C0981D7E662F0062264F /* AppDelegate.swift */; };
+		A951C09B1D7E66300062264F /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = A951C09A1D7E66300062264F /* GameScene.sks */; };
+		A951C09D1D7E66300062264F /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = A951C09C1D7E66300062264F /* Actions.sks */; };
+		A951C09F1D7E66300062264F /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A951C09E1D7E66300062264F /* GameScene.swift */; };
+		A951C0A11D7E66300062264F /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A951C0A01D7E66300062264F /* GameViewController.swift */; };
+		A951C0A41D7E66320062264F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A951C0A21D7E66320062264F /* Main.storyboard */; };
+		A951C0A61D7E66320062264F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A951C0A51D7E66320062264F /* Assets.xcassets */; };
+		A951C0A91D7E66330062264F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A951C0A71D7E66330062264F /* LaunchScreen.storyboard */; };
+		A951C0B41D7E663F0062264F /* PaddlesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A951C0B31D7E663F0062264F /* PaddlesTests.swift */; };
+		A951C0BF1D7E663F0062264F /* PaddlesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A951C0BE1D7E663F0062264F /* PaddlesUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A951C0B01D7E663F0062264F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A951C08D1D7E662D0062264F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A951C0941D7E662E0062264F;
+			remoteInfo = Paddles;
+		};
+		A951C0BB1D7E663F0062264F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A951C08D1D7E662D0062264F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A951C0941D7E662E0062264F;
+			remoteInfo = Paddles;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A951C0951D7E662F0062264F /* Paddles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Paddles.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A951C0981D7E662F0062264F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A951C09A1D7E66300062264F /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		A951C09C1D7E66300062264F /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		A951C09E1D7E66300062264F /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		A951C0A01D7E66300062264F /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		A951C0A31D7E66320062264F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A951C0A51D7E66320062264F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A951C0A81D7E66330062264F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A951C0AA1D7E66330062264F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A951C0AF1D7E663F0062264F /* PaddlesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaddlesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A951C0B31D7E663F0062264F /* PaddlesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddlesTests.swift; sourceTree = "<group>"; };
+		A951C0B51D7E663F0062264F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A951C0BA1D7E663F0062264F /* PaddlesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaddlesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A951C0BE1D7E663F0062264F /* PaddlesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddlesUITests.swift; sourceTree = "<group>"; };
+		A951C0C01D7E66410062264F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A951C0921D7E662E0062264F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A951C0AC1D7E663E0062264F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A951C0B71D7E663F0062264F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A951C08C1D7E662D0062264F = {
+			isa = PBXGroup;
+			children = (
+				A951C0971D7E662F0062264F /* Paddles */,
+				A951C0B21D7E663F0062264F /* PaddlesTests */,
+				A951C0BD1D7E663F0062264F /* PaddlesUITests */,
+				A951C0961D7E662F0062264F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A951C0961D7E662F0062264F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A951C0951D7E662F0062264F /* Paddles.app */,
+				A951C0AF1D7E663F0062264F /* PaddlesTests.xctest */,
+				A951C0BA1D7E663F0062264F /* PaddlesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A951C0971D7E662F0062264F /* Paddles */ = {
+			isa = PBXGroup;
+			children = (
+				A951C0981D7E662F0062264F /* AppDelegate.swift */,
+				A951C09A1D7E66300062264F /* GameScene.sks */,
+				A951C09C1D7E66300062264F /* Actions.sks */,
+				A951C09E1D7E66300062264F /* GameScene.swift */,
+				A951C0A01D7E66300062264F /* GameViewController.swift */,
+				A951C0A21D7E66320062264F /* Main.storyboard */,
+				A951C0A51D7E66320062264F /* Assets.xcassets */,
+				A951C0A71D7E66330062264F /* LaunchScreen.storyboard */,
+				A951C0AA1D7E66330062264F /* Info.plist */,
+			);
+			path = Paddles;
+			sourceTree = "<group>";
+		};
+		A951C0B21D7E663F0062264F /* PaddlesTests */ = {
+			isa = PBXGroup;
+			children = (
+				A951C0B31D7E663F0062264F /* PaddlesTests.swift */,
+				A951C0B51D7E663F0062264F /* Info.plist */,
+			);
+			path = PaddlesTests;
+			sourceTree = "<group>";
+		};
+		A951C0BD1D7E663F0062264F /* PaddlesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A951C0BE1D7E663F0062264F /* PaddlesUITests.swift */,
+				A951C0C01D7E66410062264F /* Info.plist */,
+			);
+			path = PaddlesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A951C0941D7E662E0062264F /* Paddles */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A951C0C31D7E66410062264F /* Build configuration list for PBXNativeTarget "Paddles" */;
+			buildPhases = (
+				A951C0911D7E662E0062264F /* Sources */,
+				A951C0921D7E662E0062264F /* Frameworks */,
+				A951C0931D7E662E0062264F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Paddles;
+			productName = Paddles;
+			productReference = A951C0951D7E662F0062264F /* Paddles.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A951C0AE1D7E663E0062264F /* PaddlesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A951C0C61D7E66410062264F /* Build configuration list for PBXNativeTarget "PaddlesTests" */;
+			buildPhases = (
+				A951C0AB1D7E663E0062264F /* Sources */,
+				A951C0AC1D7E663E0062264F /* Frameworks */,
+				A951C0AD1D7E663E0062264F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A951C0B11D7E663F0062264F /* PBXTargetDependency */,
+			);
+			name = PaddlesTests;
+			productName = PaddlesTests;
+			productReference = A951C0AF1D7E663F0062264F /* PaddlesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A951C0B91D7E663F0062264F /* PaddlesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A951C0C91D7E66410062264F /* Build configuration list for PBXNativeTarget "PaddlesUITests" */;
+			buildPhases = (
+				A951C0B61D7E663F0062264F /* Sources */,
+				A951C0B71D7E663F0062264F /* Frameworks */,
+				A951C0B81D7E663F0062264F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A951C0BC1D7E663F0062264F /* PBXTargetDependency */,
+			);
+			name = PaddlesUITests;
+			productName = PaddlesUITests;
+			productReference = A951C0BA1D7E663F0062264F /* PaddlesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A951C08D1D7E662D0062264F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Blue Stars";
+				TargetAttributes = {
+					A951C0941D7E662E0062264F = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = CBKB3CSGF9;
+						ProvisioningStyle = Automatic;
+					};
+					A951C0AE1D7E663E0062264F = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = CBKB3CSGF9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A951C0941D7E662E0062264F;
+					};
+					A951C0B91D7E663F0062264F = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = CBKB3CSGF9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A951C0941D7E662E0062264F;
+					};
+				};
+			};
+			buildConfigurationList = A951C0901D7E662D0062264F /* Build configuration list for PBXProject "Paddles" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A951C08C1D7E662D0062264F;
+			productRefGroup = A951C0961D7E662F0062264F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A951C0941D7E662E0062264F /* Paddles */,
+				A951C0AE1D7E663E0062264F /* PaddlesTests */,
+				A951C0B91D7E663F0062264F /* PaddlesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A951C0931D7E662E0062264F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A951C0A41D7E66320062264F /* Main.storyboard in Resources */,
+				A951C09B1D7E66300062264F /* GameScene.sks in Resources */,
+				A951C0A61D7E66320062264F /* Assets.xcassets in Resources */,
+				A951C0A91D7E66330062264F /* LaunchScreen.storyboard in Resources */,
+				A951C09D1D7E66300062264F /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A951C0AD1D7E663E0062264F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A951C0B81D7E663F0062264F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A951C0911D7E662E0062264F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A951C09F1D7E66300062264F /* GameScene.swift in Sources */,
+				A951C0A11D7E66300062264F /* GameViewController.swift in Sources */,
+				A951C0991D7E662F0062264F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A951C0AB1D7E663E0062264F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A951C0B41D7E663F0062264F /* PaddlesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A951C0B61D7E663F0062264F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A951C0BF1D7E663F0062264F /* PaddlesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A951C0B11D7E663F0062264F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A951C0941D7E662E0062264F /* Paddles */;
+			targetProxy = A951C0B01D7E663F0062264F /* PBXContainerItemProxy */;
+		};
+		A951C0BC1D7E663F0062264F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A951C0941D7E662E0062264F /* Paddles */;
+			targetProxy = A951C0BB1D7E663F0062264F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A951C0A21D7E66320062264F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A951C0A31D7E66320062264F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A951C0A71D7E66330062264F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A951C0A81D7E66330062264F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A951C0C11D7E66410062264F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A951C0C21D7E66410062264F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A951C0C41D7E66410062264F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CBKB3CSGF9;
+				INFOPLIST_FILE = Paddles/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BlueStars.Paddles;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A951C0C51D7E66410062264F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CBKB3CSGF9;
+				INFOPLIST_FILE = Paddles/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BlueStars.Paddles;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A951C0C71D7E66410062264F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = CBKB3CSGF9;
+				INFOPLIST_FILE = PaddlesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BlueStars.PaddlesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Paddles.app/Paddles";
+			};
+			name = Debug;
+		};
+		A951C0C81D7E66410062264F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = CBKB3CSGF9;
+				INFOPLIST_FILE = PaddlesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BlueStars.PaddlesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Paddles.app/Paddles";
+			};
+			name = Release;
+		};
+		A951C0CA1D7E66410062264F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = CBKB3CSGF9;
+				INFOPLIST_FILE = PaddlesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BlueStars.PaddlesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Paddles;
+			};
+			name = Debug;
+		};
+		A951C0CB1D7E66410062264F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = CBKB3CSGF9;
+				INFOPLIST_FILE = PaddlesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BlueStars.PaddlesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Paddles;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A951C0901D7E662D0062264F /* Build configuration list for PBXProject "Paddles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A951C0C11D7E66410062264F /* Debug */,
+				A951C0C21D7E66410062264F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A951C0C31D7E66410062264F /* Build configuration list for PBXNativeTarget "Paddles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A951C0C41D7E66410062264F /* Debug */,
+				A951C0C51D7E66410062264F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A951C0C61D7E66410062264F /* Build configuration list for PBXNativeTarget "PaddlesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A951C0C71D7E66410062264F /* Debug */,
+				A951C0C81D7E66410062264F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A951C0C91D7E66410062264F /* Build configuration list for PBXNativeTarget "PaddlesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A951C0CA1D7E66410062264F /* Debug */,
+				A951C0CB1D7E66410062264F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A951C08D1D7E662D0062264F /* Project object */;
+}
