@@ -17,6 +17,7 @@
 		A951C0A91D7E66330062264F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A951C0A71D7E66330062264F /* LaunchScreen.storyboard */; };
 		A951C0B41D7E663F0062264F /* PaddlesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A951C0B31D7E663F0062264F /* PaddlesTests.swift */; };
 		A951C0BF1D7E663F0062264F /* PaddlesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A951C0BE1D7E663F0062264F /* PaddlesUITests.swift */; };
+		A951C0CD1D80D8960062264F /* Images.atlas in Resources */ = {isa = PBXBuildFile; fileRef = A951C0CC1D80D8960062264F /* Images.atlas */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		A951C0BA1D7E663F0062264F /* PaddlesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaddlesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A951C0BE1D7E663F0062264F /* PaddlesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddlesUITests.swift; sourceTree = "<group>"; };
 		A951C0C01D7E66410062264F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A951C0CC1D80D8960062264F /* Images.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Images.atlas; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				A951C09E1D7E66300062264F /* GameScene.swift */,
 				A951C0A01D7E66300062264F /* GameViewController.swift */,
 				A951C0A21D7E66320062264F /* Main.storyboard */,
+				A951C0CC1D80D8960062264F /* Images.atlas */,
 				A951C0A51D7E66320062264F /* Assets.xcassets */,
 				A951C0A71D7E66330062264F /* LaunchScreen.storyboard */,
 				A951C0AA1D7E66330062264F /* Info.plist */,
@@ -247,6 +250,7 @@
 				A951C0A41D7E66320062264F /* Main.storyboard in Resources */,
 				A951C09B1D7E66300062264F /* GameScene.sks in Resources */,
 				A951C0A61D7E66320062264F /* Assets.xcassets in Resources */,
+				A951C0CD1D80D8960062264F /* Images.atlas in Resources */,
 				A951C0A91D7E66330062264F /* LaunchScreen.storyboard in Resources */,
 				A951C09D1D7E66300062264F /* Actions.sks in Resources */,
 			);
@@ -526,6 +530,7 @@
 				A951C0C51D7E66410062264F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A951C0C61D7E66410062264F /* Build configuration list for PBXNativeTarget "PaddlesTests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +539,7 @@
 				A951C0C81D7E66410062264F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A951C0C91D7E66410062264F /* Build configuration list for PBXNativeTarget "PaddlesUITests" */ = {
 			isa = XCConfigurationList;
@@ -542,6 +548,7 @@
 				A951C0CB1D7E66410062264F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
