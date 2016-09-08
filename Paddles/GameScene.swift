@@ -13,8 +13,10 @@ class GameScene: SKScene {
     
     private var label : SKLabelNode?
     private var spinnyNode : SKShapeNode?
+    private var scaleFactor : CGFloat?
     
     override func didMove(to view: SKView) {
+        scaleFactor = view.frame.height/self.size.height
         
         // Get label node from scene and store it for use later
         self.label = self.childNode(withName: "//helloLabel") as? SKLabelNode
@@ -85,5 +87,9 @@ class GameScene: SKScene {
     
     override func update(_ currentTime: TimeInterval) {
         // Called before each frame is rendered
+    }
+    
+    func convert(_ point:CGPoint) -> CGPoint{
+        return self.view!.convert(CGPoint(x: point.x * scaleFactor, y: self.view!.frame.height - point.y * scaleFactor), to: self)
     }
 }

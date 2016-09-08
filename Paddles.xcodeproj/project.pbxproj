@@ -18,6 +18,8 @@
 		A951C0B41D7E663F0062264F /* PaddlesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A951C0B31D7E663F0062264F /* PaddlesTests.swift */; };
 		A951C0BF1D7E663F0062264F /* PaddlesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A951C0BE1D7E663F0062264F /* PaddlesUITests.swift */; };
 		A951C0CD1D80D8960062264F /* Images.atlas in Resources */ = {isa = PBXBuildFile; fileRef = A951C0CC1D80D8960062264F /* Images.atlas */; };
+		A951C0DC1D8121E70062264F /* MyParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = A951C0DA1D8121E70062264F /* MyParticle.sks */; };
+		A951C0DD1D8121E70062264F /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = A951C0DB1D8121E70062264F /* spark.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		A951C0BE1D7E663F0062264F /* PaddlesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddlesUITests.swift; sourceTree = "<group>"; };
 		A951C0C01D7E66410062264F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A951C0CC1D80D8960062264F /* Images.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Images.atlas; sourceTree = "<group>"; };
+		A951C0DA1D8121E70062264F /* MyParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyParticle.sks; sourceTree = "<group>"; };
+		A951C0DB1D8121E70062264F /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +89,8 @@
 		A951C08C1D7E662D0062264F = {
 			isa = PBXGroup;
 			children = (
+				A951C0DA1D8121E70062264F /* MyParticle.sks */,
+				A951C0DB1D8121E70062264F /* spark.png */,
 				A951C0971D7E662F0062264F /* Paddles */,
 				A951C0B21D7E663F0062264F /* PaddlesTests */,
 				A951C0BD1D7E663F0062264F /* PaddlesUITests */,
@@ -251,6 +257,8 @@
 				A951C09B1D7E66300062264F /* GameScene.sks in Resources */,
 				A951C0A61D7E66320062264F /* Assets.xcassets in Resources */,
 				A951C0CD1D80D8960062264F /* Images.atlas in Resources */,
+				A951C0DC1D8121E70062264F /* MyParticle.sks in Resources */,
+				A951C0DD1D8121E70062264F /* spark.png in Resources */,
 				A951C0A91D7E66330062264F /* LaunchScreen.storyboard in Resources */,
 				A951C09D1D7E66300062264F /* Actions.sks in Resources */,
 			);
@@ -437,6 +445,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.BlueStars.Paddles;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				"Texture Atlas Maximum Size" = 4096x4096;
 			};
 			name = Debug;
 		};
@@ -450,6 +459,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.BlueStars.Paddles;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				"Texture Atlas Maximum Size" = 4096x4096;
 			};
 			name = Release;
 		};
