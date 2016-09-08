@@ -14,9 +14,23 @@ class GameScene: SKScene {
     private var label : SKLabelNode?
     private var spinnyNode : SKShapeNode?
     private var scaleFactor : CGFloat?
+    private var upPaddle : SKSpriteNode?
+    private var downPaddle : SKSpriteNode?
+    private var background : SKSpriteNode?
     
     override func didMove(to view: SKView) {
-        scaleFactor = view.frame.height/self.size.height
+        scaleFactor = self.size.width/view.frame.width
+        
+        upPaddle = self.childNode(withName: "upPaddle") as? SKSpriteNode
+        downPaddle = self.childNode(withName: "downPaddle") as? SKSpriteNode
+        background = self.childNode(withName: "background") as? SKSpriteNode
+        
+        scaleFactor! > CGFloat(1) ? self.size.height = view.frame.height * scaleFactor! : ()
+
+        
+//        upPaddle?.position.y = view.convert(CGPoint(x: 0, y: (view.frame.size.height - (upPaddle?.size.height)!/2) * scaleFactor!), to: self).y
+//        downPaddle?.position.y = view.convert(CGPoint(x: 0, y: (upPaddle?.size.height)!/2 * scaleFactor!), to: self).y
+
         
         // Get label node from scene and store it for use later
         self.label = self.childNode(withName: "//helloLabel") as? SKLabelNode
@@ -89,7 +103,15 @@ class GameScene: SKScene {
         // Called before each frame is rendered
     }
     
+    override func didChangeSize(_ oldSize: CGSize) {
+        upPaddle?.position.y = self.size.height/2 - (upPaddle?.size.width)!/2
+        downPaddle?.position.y = -self.size.height/2 + (downPaddle?.size.width)!/2
+        
+        background?.setScale(scaleFactor!)
+
+    }
+    
     func convert(_ point:CGPoint) -> CGPoint{
-        return self.view!.convert(CGPoint(x: point.x * scaleFactor, y: self.view!.frame.height - point.y * scaleFactor), to: self)
+        return self.view!.convert(CGPoint(x: point.x * scaleFactor!, y: self.view!.frame.height - point.y * scaleFactor!), to: self)
     }
 }
